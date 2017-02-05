@@ -1,4 +1,4 @@
-# Wie Funktioniert das Internet?
+# Wie funktioniert das Internet?
 
 ## Begriffe
 
