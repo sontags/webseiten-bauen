@@ -40,7 +40,7 @@ Ist all das erfüllt ist die Webseite im Internet erreichbar.
                                        +-----------------------+
 ```
 
-1. Rosel sitzt am Computer und gibt `rosel.ch` im Browser ein.
+1. s'Röselchen sitzt am Computer und gibt `rosel.ch` im Browser ein.
 2. Der Browser erkundigt sich beim DNS Server, welche IP Adresse der Server wohl hat, auf welchem die Webseite `rosel.ch` läuft.
 3. Der DNS Server läst verlauten, dass die Webseite `rosel.ch` auf dem Webserver mit der IP Adresse `80.74.152.191` zu finden ist.
 4. Der Browser wendet sich nun an entsprechenden Webserver und fragt nach der Webseite.
