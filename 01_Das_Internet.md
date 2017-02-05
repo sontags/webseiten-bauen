@@ -23,16 +23,16 @@ Ist all das erfüllt ist die Webseite im Internet erreichbar.
 
 ```
 +-----------+                       +------------+
-| Röselchen |  -- sitzt am ... -->  | Computerli |
+| Röselchen |  --------(1)------->  | Computerli |
 +-----------+                       +------------+
                                      |  ^   |  ^
                 .--------------------`  |   |  |
                 |                       |   |  |
                 |    .------------------`   |  |
-                |    |                      |  `---(4)-----.
-               (1)   |                     (3)             |
+                |    |                      |  `---(5)-----.
+               (2)   |                     (4)             |
                 |    |                      |              |
-                |   (2)                     |              |
+                |   (3)                     |              |
                 v    |                      v              |
           +------------+               +-----------------------+
           | DNS Server |               | Webserver beim Hoster |
@@ -40,8 +40,8 @@ Ist all das erfüllt ist die Webseite im Internet erreichbar.
                                        +-----------------------+
 ```
 
-0. Rosel sitzt am Computer und gibt `rosel.ch` im Browser ein.
-1. Der Browser erkundigt sich beim DNS Server, welche IP Adresse der Server wohl hat, auf welchem die Webseite `rosel.ch` läuft.
-2. Der DNS Server läst verlauten, dass die Webseite `rosel.ch` auf dem Webserver mit der IP Adresse `80.74.152.191` zu finden ist.
-3. Der Browser wendet sich nun an entsprechenden Webserver und fragt nach der Webseite.
-4. Der Webserver schickt die HTML Dateien (sowie die Bilder, CSS Dateien usw.) an den Browser, welche dieser dann anzeigt.
+1. Rosel sitzt am Computer und gibt `rosel.ch` im Browser ein.
+2. Der Browser erkundigt sich beim DNS Server, welche IP Adresse der Server wohl hat, auf welchem die Webseite `rosel.ch` läuft.
+3. Der DNS Server läst verlauten, dass die Webseite `rosel.ch` auf dem Webserver mit der IP Adresse `80.74.152.191` zu finden ist.
+4. Der Browser wendet sich nun an entsprechenden Webserver und fragt nach der Webseite.
+5. Der Webserver schickt die HTML Dateien (sowie die Bilder, CSS Dateien usw.) an den Browser, welche dieser dann anzeigt.
